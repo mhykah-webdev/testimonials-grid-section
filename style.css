@@ -183,6 +183,10 @@ main {
 }
 
 @media (min-width: 40rem) {
+    body {
+        place-items: center;
+    }
+
     main {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -225,7 +229,4 @@ main {
         grid-column: 4 / span 1;
         grid-row: 1 / span 2;
     }
-
-
-
 }
