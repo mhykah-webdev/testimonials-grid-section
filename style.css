@@ -183,13 +183,15 @@ main {
 
 @media (min-width: 40rem) {
     body {
-        place-items: center;
+        display: grid;
+        height: 100vh;
     }
 
     main {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
         max-width: 72.375rem;
+        align-self: center;
     }
 
     .card:first-of-type {
