@@ -1,3 +1,12 @@
+:root {
+    --moderate-violet: hsl(263, 55%, 52%);
+    --light-violet: hsl(264, 82%, 70%);
+    --very-dark-greyish: hsl(217, 19%, 35%);
+    --very-dark-blackish: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+    --light-greyish: background-color: hsl(210, 46%, 95%);
+}
+
 .barlow-semi-condensed-medium {
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 500;
@@ -81,7 +90,7 @@ h6 {
 }
 
 body {
-    background-color: hsl(210, 46%, 95%);
+    background-color: var(--light-greyish);
 }
 
 main {
@@ -92,7 +101,6 @@ main {
 }
 
 .card {
-    background-color: pink;
     border-radius: 0.5rem;
     padding: 1.625rem 2rem 2rem 2rem;
     box-shadow: 40px 60px 50px -47px hsla(217, 19%, 35%, 24.74%);
@@ -113,27 +121,27 @@ main {
 }
 
 .purple-bg {
-    background-color: hsl(263, 55%, 52%);
+    background-color: var(--moderate-violet);
 }
 
 .light-grey-bg {
-    background-color: hsl(217, 19%, 35%);
+    background-color: var(--very-dark-greyish);
 }
 
 .white-bg {
-    background-color: hsl(0, 0%, 100%);
+    background-color: var(--white);
 }
 
 .dark-bg {
-    background-color: hsl(219, 29%, 14%);
+    background-color: var(--very-dark-blackish);
 }
 
 .white-text {
-    color: hsl(0, 0%, 100%);
+    color: var(--white);
 }
 
 .dark-text {
-    color: hsl(217, 19%, 35%);
+    color: var(--very-dark-greyish);
 }
 
 .profile {
@@ -150,7 +158,7 @@ main {
 }
 
 .avatar-border {
-    border: 2px solid hsl(264, 82%, 70%);
+    border: 2px solid var(--light-violet);
 }
 
 .profile .name-title {
